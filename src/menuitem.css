@@ -1,0 +1,17 @@
+.buttonstyle {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: transparent;
+  color: #1d3557;
+  text-align: center;
+  border: 1px solid #e63946;
+  font-size: 1rem;
+  font-family: "Roboto";
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.buttonstyle:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
