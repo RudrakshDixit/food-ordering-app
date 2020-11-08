@@ -78,6 +78,8 @@ function Checkout(props) {
               email:email,
               address:address,
               orderedItems: result,
+              time: new Date().toTimeString().split(" ")[0],
+              date: new Date().toLocaleDateString(),
             }
           }).then((response) => {
             setUpdate(false);

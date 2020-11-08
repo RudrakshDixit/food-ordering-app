@@ -30,14 +30,14 @@ function AdminItems({ name, email,  phone,   address,    id, items, status }) {
       
      
     return (
-        <div style={{margin:"1rem"}}>
+        <div style={{margin:"1rem",paddingLeft:"5rem"}}>
             <TableContainer component={Paper}>
       <Table  size="medium" aria-label="a dense table">
-        <TableHead style={{backgroundColor:"#a8dadc"}}>
-          <TableRow>
-            <TableCell>Customer details</TableCell>
-            <TableCell >Order status</TableCell>
-            <TableCell>Order details</TableCell>
+        <TableHead style={{backgroundColor:"#1d3557"}}>
+          <TableRow >
+            <TableCell style={{color:"white"}}>Customer details</TableCell>
+            <TableCell style={{color:"white"}}>Order status</TableCell>
+            <TableCell style={{color:"white"}}>Order details</TableCell>
             
           </TableRow>
         </TableHead>
